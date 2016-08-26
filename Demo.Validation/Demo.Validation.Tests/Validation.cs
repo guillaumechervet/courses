@@ -27,7 +27,7 @@ namespace Demo.Validation.Tests
             }
             return true;
         }
-
+        
         private bool ValidateRecurssive(object model)
         {
             if (model == null)
